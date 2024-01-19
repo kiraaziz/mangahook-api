@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel/serverless'
 import starlight from '@astrojs/starlight';
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://mangahook-api.vercel.app",
