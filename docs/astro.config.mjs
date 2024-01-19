@@ -8,7 +8,7 @@ export default defineConfig({
     starlight({
       title: 'Manga Hook',
       social: {
-        github: 'https://github.com/withastro/starlightkiraaziz/manga-api',
+        github: 'https://github.com/kiraaziz/manga-api',
       },
       customCss: [
         "/src/assets/style.css"
