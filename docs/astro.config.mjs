@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel/serverless'
 import starlight from '@astrojs/starlight';
-import vercelStatic from '@astrojs/vercel/static';
 // https://astro.build/config
 export default defineConfig({
   site: "https://mangahook-api.vercel.app",
@@ -41,8 +40,8 @@ export default defineConfig({
       ],
     }),
   ],
-  output: 'static',
-  adapter: vercelStatic({
+  output: 'server',
+  adapter: vercel({
     webAnalytics: {
       enabled: true,
     },
