@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Verdana');
+
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #391818;
+	--sl-color-accent: #b2393e;
+	--sl-color-accent-high: #e9bcb9;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #ebeef3;
+	--sl-color-gray-2: #bfc2c8;
+	--sl-color-gray-3: #858c97;
+	--sl-color-gray-4: #535863;
+	--sl-color-gray-5: #333842;
+	--sl-color-gray-6: #222730;
+	--sl-color-black: #16181c;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f0cdcb;
+	--sl-color-accent: #b53b40;
+	--sl-color-accent-high: #531f1f;
+	--sl-color-white: #16181c;
+	--sl-color-gray-1: #222730;
+	--sl-color-gray-2: #333842;
+	--sl-color-gray-3: #535863;
+	--sl-color-gray-4: #858c97;
+	--sl-color-gray-5: #bfc2c8;
+	--sl-color-gray-6: #ebeef3;
+	--sl-color-gray-7: #f5f6f9;
+	--sl-color-black: #ffffff;
+}

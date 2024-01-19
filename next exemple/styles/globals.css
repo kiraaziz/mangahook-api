@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Lexend;
+  src: url(/fonts/Lexend.ttf);
+}
+
+body {
+  font-family: Lexend;
+  height: 100%
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  @apply bg-red-400/50 hover:bg-red-400 ease-in-out duration-200
+}
+
+.firebase-emulator-warning{
+  display: none;
+}
