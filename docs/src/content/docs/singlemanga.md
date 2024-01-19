@@ -1,6 +1,6 @@
 ---
 title: Get Manga Detail
-description: Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
+description: Unlock detailed insights into specific manga and chapters with the Manga Detail API endpoints. Utilize /api/manga/:id to retrieve comprehensive details about a particular manga using its unique identifier. Access chapter-specific information through /api/manga/:id/:ch, providing details on chapter titles, associated images, and more. Seamlessly integrate these endpoints into your applications to elevate the manga reading experience for your users. Dive into the world of manga effortlessly by exploring and utilizing these powerful API features.
 ---
 
 #### Endpoint: `/api/manga/:id`

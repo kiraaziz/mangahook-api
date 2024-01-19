@@ -1,6 +1,6 @@
 ---
 title: Search
-description: Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
+description: Refine your manga discovery with the Search API endpoint /api/search/:query. Utilize this powerful tool to search for manga titles based on specific queries. Make GET requests with encoded search queries like attack%20on%20titan?page=1 and receive a response containing a curated list of manga entries with images and titles. Leverage the metaData section for insights into the total number of pages available for search results. Enhance your application's search functionality and offer users relevant manga suggestions effortlessly using this dynamic API feature.
 ---
 #### Endpoint: `/api/search/:query`
 

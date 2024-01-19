@@ -1,6 +1,6 @@
 ---
 title: MangaHook Website Example
-description: Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
+description: Experience the MangaHook website example, a dynamic platform crafted with Next.js, Tailwind CSS, and Next UI components. Seamlessly interacting with the MangaHook API, the website offers users a captivating manga reading experience. Explore key features, including the Home Screen with a curated list of manga titles, Manga Details Page showcasing detailed information, Chapter Details Page for immersive reading, and a powerful Search Functionality. Check out the example website at https://lmangahook.vercel.app to navigate the home screen, delve into manga details, read chapters, and effortlessly search for favorite titles. Witness how MangaHook combines technologies to create a user-friendly and engaging manga reading platform.
 ---
 MangaHook has created a user-friendly website using Next.js, Tailwind CSS, and Next UI components. The website interacts with the MangaHook API to provide users with a seamless manga reading experience. Let's explore the main features:
 

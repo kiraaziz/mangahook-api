@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
+description: Effortlessly set up Manga Hook API and Next.js client on your local machine with our step-by-step guide. Clone the repository, install dependencies, and start the Express server for Manga Hook. Move to the Next.js client directory, install dependencies, and run the development server. For production, build the Next.js app and start the server. Explore Manga Hook API and Next.js client to access manga data and enhance your applications. Happy coding!
 ---
 Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
 
@@ -9,7 +9,7 @@ Follow these detailed steps to set up the Manga Hook API and Next.js client appl
 Open your terminal and run the following command to clone the Manga Hook repository:
 
 ```bash
-git clone [repository_url]
+git clone https://github.com/kiraaziz/mangahook-api
 ```
 
 ## 2. Set Up the Server:

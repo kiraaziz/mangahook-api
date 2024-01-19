@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: a
+description: Get started with Manga Hook API in just a few simple steps. Clone the repository, navigate to the server directory, install dependencies, and start the Express server. Once set up, explore and integrate Manga Hook seamlessly into your projects, accessing a vast repository of manga data through provided API endpoints. Enhance your manga-related applications effortlessly with Manga Hook.
 ---
 
 Follow these simple steps to get Manga Hook up and running on your local machine:
@@ -10,7 +10,7 @@ Follow these simple steps to get Manga Hook up and running on your local machine
    Open your terminal and run the following command to clone the Manga Hook repository:
 
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/kiraaziz/mangahook-api
    ```
 
 ### 2. **Navigate to the Server Directory:**

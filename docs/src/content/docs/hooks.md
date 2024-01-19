@@ -1,6 +1,6 @@
 ---
 title: Web Hooks For Next
-description: Follow these detailed steps to set up the Manga Hook API and Next.js client application on your local machine. This guide assumes you have Git, Node.js, and npm installed.
+description: Effortlessly integrate MangaHook API into your Next.js applications with a set of custom hooks. Simplify data retrieval with useMangaList for fetching a list of manga titles, useManga for detailed manga information, useMangaChapter for specific chapter details, and useMangaSearch for searching manga titles. Customize parameters as needed, seamlessly incorporating these hooks to enhance your components. Dive into the world of manga effortlessly, managing and displaying data according to your application's unique requirements.
 ---
 MangaHook provides a set of custom hooks to simplify the integration of the MangaHook API into Next.js applications. These hooks facilitate the retrieval of manga data for various purposes. Here's a detailed documentation for each hook:
 

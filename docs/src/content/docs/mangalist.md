@@ -1,6 +1,6 @@
 ---
 title: Manga List
-description: The /api/mangaList endpoint provides a list of manga with associated metadata. Follow the steps below to make a request and understand the response.
+description: Explore the Manga List API endpoint /api/mangaList with detailed steps for making GET requests and understanding the responses. Fetch a comprehensive list of manga with associated metadata using your preferred API testing tool or HTTP client library. Optionally, delve into pagination, filter by manga category, type, or state with specified query parameters. Review the JSON response structure, and use the provided TypeScript interface. Start integrating and tailoring manga data to enhance your applications and dive into the diverse world of manga effortlessly!
 ---
 #### Endpoint: `/api/mangaList`
 

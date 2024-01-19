@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: A reference page in my new Starlight docs site.
+description: Welcome to Manga Hook, your go-to API for accessing a vast repository of manga data freely. Manga Hook is designed to streamline the process of retrieving manga information, offering features such as search, fetching all manga, fetching a single manga, retrieving manga chapters, and obtaining images from a specific chapter. Powered by Node.js, Express, WebScraping with Cheerio, and handling asynchronous requests with Request-Promise, Manga Hook provides a robust and efficient solution for developers and enthusiasts alike.
 ---
 Welcome to Manga Hook, your go-to API for accessing a vast repository of manga data freely. Manga Hook is designed to streamline the process of retrieving manga information, offering features such as search, fetching all manga, fetching a single manga, retrieving manga chapters, and obtaining images from a specific chapter. Powered by Node.js, Express, WebScraping with Cheerio, and handling asynchronous requests with Request-Promise, Manga Hook provides a robust and efficient solution for developers and enthusiasts alike.
 
