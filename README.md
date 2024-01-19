@@ -90,87 +90,84 @@ To list available manga, make a GET request to the following endpoint using a to
 
     ```json
     {
-    "mangaList": [
-        {
-            "id": "1manga-oa952283",
-            "image": "https://ww6.mangakakalot.tv//mangaimage/manga-oa952283.jpg",
-            "title": "Attack On Titan",
-            "chapter": "chapter-139",
-            "view": "105.8M",
-            "description": "..."
-
+        "mangaList": [
+            {
+                "id": "1manga-oa952283",
+                "image": "https://ww6.mangakakalot.tv//mangaimage/manga-oa952283.jpg",
+                "title": "Attack On Titan",
+                "chapter": "chapter-139",
+                "view": "105.8M",
+                "description": "..."
+                
+            }
+            // ... other manga entries
+        ],
+        "metaData": {
+            "totalStories": 10,
+            "totalPages": 100,
+            "type": [
+                {
+                    "id": "newest",
+                    "type": "Newest"
+                }
+                // ... other types
+            ],
+            "state": [
+                {
+                    "id": "Completed",
+                    "type": "Completed"
+                }
+                // ... other states
+            ],
+            "category": [
+                {
+                    "id": "all",
+                    "type": "ALL"
+                }
+                // ... 40 other categories
+            ]
         }
-        // ... other manga entries
-    ],
-    "metaData": {
-        "totalStories": 10,
-        "totalPages": 100,
-        "type": [
-            {
-                "id": "newest",
-                "type": "Newest"
-            }
-            // ... other types
-        ],
-        "state": [
-            {
-                "id": "Completed",
-                "type": "Completed"
-            }
-            // ... other states
-        ],
-        "category": [
-            {
-                "id": "all",
-                "type": "ALL"
-            }
-            // ... 40 other categories
-        ]
     }
+    ```
 
-}
+Now you're ready to explore and integrate Manga Hook into your projects. Feel free to use the provided API endpoints to access manga data and enhance your manga-related applications!
 
+- **Response Format:**
+The API will respond with data structured as follows:
 
-```
-
-Now you’re ready to explore and integrate Manga Hook into your projects. Feel free to use the provided API endpoints to access manga data and enhance your manga-related applications!
-
-- **Response Format:**  The API will respond with data structured as follows:
-
-```ts
+    ```typescript
     interface MangaList {
-    mangaList: [
-        {
-            id: String,
-            image: String,
-            title: String,
-            chapter: String,
-            view: String,
-            description: String
+        mangaList: [
+            {
+                id: String,
+                image: String,
+                title: String,
+                chapter: String,
+                view: String,
+                description: String
+            }
+        ],
+        metaData: {
+            totalStories: Number,
+            totalPages: Number,
+            type: [
+                {
+                    id: String,
+                    type: String
+                }
+            ],
+            state: [
+                {
+                    id: String,
+                    type: String
+                }
+            ],
+            category: [
+                {
+                    id: String,
+                    type: String
+                }
+            ],
         }
-    ],
-    metaData: {
-        totalStories: Number,
-        totalPages: Number,
-        type: [
-            {
-                id: String,
-                type: String
-            }
-        ],
-        state: [
-            {
-                id: String,
-                type: String
-            }
-        ],
-        category: [
-            {
-                id: String,
-                type: String
-            }
-        ],
     }
-
-}
-```
+    ```
