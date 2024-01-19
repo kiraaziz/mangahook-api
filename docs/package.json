@@ -1,6 +1,7 @@
 {
-  "name": "docs",
+  "name": "growing-gravity",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -9,8 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/vercel": "^6.1.0",
+    "astro": "^4.0.5",
+    "astro-icon": "^0.8.2",
+    "tailwindcss": "^3.3.6",
     "@astrojs/starlight": "^0.15.4",
-    "@astrojs/vercel": "^7.0.0",
-    "astro": "^4.2.1"
+    "sharp": "^0.32.6"
   }
 }
