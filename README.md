@@ -4,10 +4,13 @@
    Welcome to Manga Hook, your own manga API. </br>
   <br />
   </h2>
+  <p>
+  Welcome to Manga Hook, your go-to API for accessing a vast repository of manga data freely. Manga Hook is designed to streamline the process of retrieving manga information, offering features such as search, fetching all manga, fetching a single manga, retrieving manga chapters, and obtaining images from a specific chapter.
+  </p>
 </div>
 <h4 align="center">
   <a href="https://mangahook.vercel.app">Demo</a> |
-  <a href="https://mangahook-api.vercel.app">Documentation</a> |
+  <a href="https://mangahook-api.vercel.app">Documentation</a>
 </h4>
 
 <a href="https://mangahook.vercel.app" target="_blank" rel="noopener">
@@ -15,12 +18,14 @@
     <img alt="Manga Hook" src="https://mangahook-api.vercel.app/screenshot/list.png" />
   </picture>
 </a>
-Welcome to Manga Hook, your go-to API for accessing a vast repository of manga data freely. Manga Hook is designed to streamline the process of retrieving manga information, offering features such as search, fetching all manga, fetching a single manga, retrieving manga chapters, and obtaining images from a specific chapter.
 
 ## Features
 
-- 💯&nbsp;Free & open-source.
-- ✍️&nbsp;Hand-drawn like style.
+-📚 get all manga
+-ℹ️ get single manga detail
+-📖 get chapter list including images
+-🔍 search support
+-🔥 Nextjs exemple with ready to use hooks
 
 ## Quick start
 
@@ -123,7 +128,8 @@ To list available manga, make a GET request to the following endpoint using a to
     }
 
 }
-    ```
+
+```
 
 Now you’re ready to explore and integrate Manga Hook into your projects. Feel free to use the provided API endpoints to access manga data and enhance your manga-related applications!
 
@@ -165,4 +171,4 @@ Now you’re ready to explore and integrate Manga Hook into your projects. Feel 
     }
 
 }
-    ```
+```
